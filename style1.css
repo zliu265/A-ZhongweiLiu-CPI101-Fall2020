@@ -1,0 +1,24 @@
+.box{
+		background-color:lightblue;
+		width: 300px;
+		padding: 20px;
+		poaition: relative;
+}
+.meme_top{
+		position: relative;
+		paddding:10px;
+		top: 80px;
+		font-size: 40px;
+		color:white;
+		cont-family: impact;
+		text-shadow; 2px 2px #000000;
+}
+.meme_bottom{
+		position; relative;
+		bottom: 50px;
+		text-align: center;
+		font-size: 35px;
+		color:white;
+		font-family: Impact;
+		text-shadow:2pc 2px #000000;
+}
