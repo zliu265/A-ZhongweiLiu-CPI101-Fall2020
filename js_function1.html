@@ -1,0 +1,25 @@
+//name: zhongwei liu
+//email: zliu265@asu.edu
+//comments: I usually have a language barrier. My English is not very good. Sometimes I get the wrong meaning. I can only learn html by reading it several times. It just takes a lot of time.
+<html>
+	<head>
+		<script langusage="JavaScript">
+			var input1 = window.prompt("Please Enter #1 Number");
+			var input2 = window.prompt("please Enter #2 Number");
+			var input3 = window.prompt("please Enter #3 Number");
+
+			document.write("<p>The max of these three numbers is : "+findMax(input1,input2,input3)+"</p>");
+
+			funciton findMax(input1, input2, input3){
+				var theLargestInputBetween23 = Math.max(
+				input2,input3);
+				return Math.max(input1,
+				theLargestInputBetween23);
+			}
+		</script>
+
+	</head>
+	<body>
+		<h1>Testing a max function.</h1>
+	</body>
+</html>
