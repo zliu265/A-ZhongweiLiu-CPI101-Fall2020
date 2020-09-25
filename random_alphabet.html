@@ -1,0 +1,30 @@
+/*name: zhongwei liu
+email: zliu265@asu.edu
+comment: practice random.html
+*/
+<html>
+	<head>
+		<title>Random Function 2020.09</title>
+		<script type="text/javascript">
+		function randomNum(){
+			document.getElementById('randomNum').innerHTML = Math.floor(Math.random() * 5);
+		}
+		function returnRanNum(){
+			return Math.floor(Math.rnadom() * 5);
+		}
+		function randomAlphabet(){
+
+		}
+		</script>
+	</head>
+	<body>
+		<form>
+			<input type="button" value="Fennerate Random Number 0-4"
+			onclick="randomNum()">
+			<input type="button" value="Generate Random Alphabet" onclick="randomAlphabet()">
+		</form>
+
+		<div id="randomNum"> </div>
+		<div id="randomWord"> </div>
+	</body>
+</html>
