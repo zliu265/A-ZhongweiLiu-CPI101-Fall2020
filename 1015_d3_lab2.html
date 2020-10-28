@@ -1,0 +1,40 @@
+<html>
+<head>
+	<script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body style="background-color: grey">
+	<h2>CPI101 Introduction to Informatics</h2>
+	<div id="viz"></div>
+
+	<svg width="500" height="200">
+		<circle cx="50" cy="50" r="30" fill="yellow"></circle>
+	</svg>
+
+	<script type="text/javascript">
+		//zhongwei liu
+		//zliu265@asu.edu
+		//comments: for me, I think I just remember some "<svg>".
+		var dataArray = [100,50,10];
+
+		var circles = d3.select("svg")
+						.selectAll("circle")
+						.data(dataArray);
+
+			circles.enter()
+					.append("circle")
+					.attr("cx", function (d){
+								return d;
+					})
+					.attr("cy", function (d){
+								return d;
+					})
+					.attr("r", function(d){
+								return d;
+					})
+					.style("fill", function(){
+								return "rgb(" + Math.random() * 255 + ".100,50";
+					});
+	</script>
+
+</body>
+</html>
